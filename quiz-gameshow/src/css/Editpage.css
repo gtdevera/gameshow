@@ -1,0 +1,17 @@
+#editBackground{
+    height:100vh;
+    background-color: darkorchid;
+    display:flex;
+    justify-content: space-evenly;
+}
+.editBoxes{
+    margin:50px;
+    background-color: rgb(233, 104, 104);
+}
+#customizeAll{
+    justify-content:center;
+    align-items: center;
+}
+.selectLabels{
+    margin-top: 10px;
+}

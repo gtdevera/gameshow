@@ -3,6 +3,7 @@ import {React} from "react";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Homepage from "./frontend/Homepage.js"
 import Gamepage from "./frontend/Gamepage.js"
+import Editpage from './frontend/Editpage.js';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Routes>
           <Route path ="/" element={<Homepage/>}/>
           <Route path="/gamepage" element={<Gamepage/>}/>
+          <Route path="/editpage" element={<Editpage/>}/>
         </Routes>
       </BrowserRouter>
   );

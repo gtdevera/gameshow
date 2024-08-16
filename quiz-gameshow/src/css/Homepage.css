@@ -1,0 +1,32 @@
+#homepageBackground{
+    background-color: teal;
+    height:100vh;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+#choices{
+    display:flex;
+}
+.choiceCards{
+    position: relative;
+    height:500px;
+    width:600px;
+    text-align: center;
+    border-radius: 5%;
+    margin-right:5%;
+    margin-left:5%;
+}
+#editCard{
+    background-color: pink;
+}
+#playCard{
+    background-color: yellow;
+}
+.choiceText{
+    font-size: 80px;
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
