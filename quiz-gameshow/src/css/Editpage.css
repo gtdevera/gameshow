@@ -12,6 +12,18 @@
     justify-content:center;
     align-items: center;
 }
+#textBoxes{
+    width:300px;
+    height:auto;
+}
 .selectLabels{
     margin-top: 10px;
+}
+.flipBoxes{
+    width:210px;
+    height:110px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: 'center';
+    align-items: 'center';
 }
